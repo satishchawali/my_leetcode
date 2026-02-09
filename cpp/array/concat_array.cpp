@@ -50,6 +50,8 @@ int main(){
     vector<int> nums = {3, 2, 4, 5, 6};
     vector<int> ans = s.getConcatenation(nums);
     cout << "Concated array: "  << endl;
-    for(int x)
+    for(int x: ans){
+        cout << x << " ";
+    }
     return 0;
 }
